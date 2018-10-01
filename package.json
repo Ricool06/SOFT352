@@ -1,0 +1,28 @@
+{
+  "name": "soft352",
+  "version": "1.0.0",
+  "description": "Exercises for the SOFT352 module at university",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jshint": "^2.9.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricool06/SOFT352.git"
+  },
+  "author": "Ricool06",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Ricool06/SOFT352/issues"
+  },
+  "homepage": "https://github.com/Ricool06/SOFT352#readme"
+}

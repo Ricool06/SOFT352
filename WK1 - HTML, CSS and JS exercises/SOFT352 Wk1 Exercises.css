@@ -1,1 +1,16 @@
 /* Your CSS goes here */
+body > div.main {
+    width: 250px;
+    color: #202020;
+    background-color: #d0d0d0;
+}
+
+body > div.main > div.light {
+    height: 50px;
+    background-color: rgb(0, 255, 255);
+}
+
+#burn {
+    width: 150px;
+    font-weight: 700;
+}

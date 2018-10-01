@@ -56,7 +56,7 @@ QUnit.test("#Unit test 8c testing main div background color", function(assert){
     assert.equal(rgb2hex($(".main").css("background-color")),"#d0d0d0","checking that the background color is #d0d0d0.");
 });
 
-QUnit.test("#Unit test 9a testing button width", function(assert){
+QUnit.test("#Unit test 9a testing light div height", function(assert){
     assert.equal($(".light").css("height"),"50px","checking that light div height is 50px.");
 });
 
@@ -69,7 +69,9 @@ QUnit.test("#Unit test 10a testing button width", function(assert){
 });
 
 QUnit.test("#Unit test 10b testing button font", function(assert){
-    assert.equal($("#burn").css("font-weight"),"bold","checking that button uses font 'bold'.");
+    var actualFontWeight = $("#burn").css("font-weight");
+    console.log(actualFontWeight);
+    assert.ok(actualFontWeight == "bold" || actualFontWeight == 700, "checking that button uses font 'bold' or 700.");
 });
 
 // Tests for behavior/JavaScript

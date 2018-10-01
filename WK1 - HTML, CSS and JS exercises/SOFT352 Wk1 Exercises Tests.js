@@ -70,7 +70,6 @@ QUnit.test("#Unit test 10a testing button width", function(assert){
 
 QUnit.test("#Unit test 10b testing button font", function(assert){
     var actualFontWeight = $("#burn").css("font-weight");
-    console.log(actualFontWeight);
     assert.ok(actualFontWeight == "bold" || actualFontWeight == 700, "checking that button uses font 'bold' or 700.");
 });
 

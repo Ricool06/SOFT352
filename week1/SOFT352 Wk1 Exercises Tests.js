@@ -1,3 +1,4 @@
+/* eslint-disable */
 function rgb2hex(color) {
     digits = /(.*?)rgb\((\d+), (\d+), (\d+)\)/.exec(color);
     red = parseInt(digits[2],10);

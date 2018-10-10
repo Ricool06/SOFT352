@@ -19,7 +19,7 @@ function getCharFromKeyPressEvent(event) {
   return event.key ? event.key : String.fromCharCode(event.keyCode);
 }
 
-function cycleColour() {
+function cycleColour() { // eslint-disable-line no-unused-vars
   var light = document.querySelector('body > div.main > div');
-  light.style.backgroundColor = nextColourMap[rgb2hex(light.style.backgroundColor)];
+  light.style.backgroundColor = nextColourMap[rgb2hex(light.style.backgroundColor)]; // eslint-disable-line no-undef
 }

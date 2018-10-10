@@ -1,3 +1,4 @@
+/* eslint-disable */
 /*!
  * QUnit 2.4.0
  * https://qunitjs.com/

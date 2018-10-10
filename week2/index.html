@@ -3,12 +3,15 @@
 </head>
 <body>
   <h1>AJAX Colours</h1>
-  <span id="redSpan">No red</span>
-  <span id="greenSpan">No blue</span>
-  <span id="blueSpan">No green</span>
-  <span>
-    <button id="red">red</button>
-    <button id="green">green</button>
-    <button id="blue">blue</button>
-  </span>
+  <div id="redDiv">No red</div>
+  <div id="greenDiv">No blue</div>
+  <div id="blueDiv">No green</div>
+  <div>
+    <span>
+      <button id="red" onclick="getColor(this.id)">red</button>
+      <button id="green" onclick="getColor(this.id)">green</button>
+      <button id="blue" onclick="getColor(this.id)">blue</button>
+    </span>
+  </div>
+  <span id="time"></span>
 </body>

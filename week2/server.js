@@ -1,13 +1,13 @@
-var http = require('http');
-var url = require('url');
+const http = require('http');
+const url = require('url');
 
 http.createServer(function(request, response) {
   response.setHeader('Access-Control-Allow-Origin', '*');
 
-  var parsedUrl = url.parse(request.url, true);
-  var color = parsedUrl.pathname.substr(1).toLowerCase();
-  var validColors = ['red', 'green', 'blue'];
-  var responseBody;
+  let parsedUrl = url.parse(request.url, true);
+  let color = parsedUrl.pathname.substr(1).toLowerCase();
+  let validColors = ['red', 'green', 'blue'];
+  let responseBody;
 
   if (validColors.indexOf(color) != -1) {
     responseBody = {color: parsedUrl.pathname.substr(1), time: Date.now()};

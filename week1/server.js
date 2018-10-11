@@ -1,8 +1,8 @@
-var http = require('http');
-var url = require('url');
+const http = require('http');
+const url = require('url');
 
 http.createServer(function(request, response) {
-  var parsedUrl = url.parse(request.url, true);
+  let parsedUrl = url.parse(request.url, true);
 
   console.log(parsedUrl.query);
 
